@@ -1,0 +1,143 @@
+
+https://www.youtube.com/watch?v=qkblc5WRn-U
+TDD: 3 Laws
+
+TDD is a discipline. It has arbitrary rules that
+
+1. First write a unit test and it must fail before you write production code.
+There is no code there. How can you write code for something if it doesn't exist?
+It doesn't make sense.
+
+2. You are not allowed to write more unit test more than when it fails. Failure to compile its failing.
+Since there is no production code to begin with.
+If you are a Developer you may wonder how you will get anything done
+
+3. You are not allowed to write any more production code unless you
+
+This is a 5 second development cycle and it is very inefficient.
+
+You'll be switching back and forth between production code and tests.
+This seems crazy and insane right?
+
+You can never complete a thought. You will always be interupting yourself.
+It seems boarding, tedious and a time waster.
+
+These tests are low level simple documentation.
+You improve a stream of documentation that covers the entire body of the production code
+in a way Developers can interpret
+
+What happens when you write unit tests after the fact?
+Is it fun? No its not. You already know the code works because you tested it manually.
+So why write the tests now? Because a process person tells you to.
+
+Then you come to code that is difficult to test.
+It is because you did not write the code to be tested.
+It seems that it is too time consuming to write tests for - so you walk away. It works so why
+write tests? Whats the result the test suite is full of holes.
+
+It you run a test suite that is full of holes and it passes it tells you nothing.
+
+
+If you write the test first it is impossible to write the function that is hard to test.
+You must develop all your functions that are easy to test.
+The reason why it is easy to test means it is decoupled.
+
+So by writing the tests first, its fun and the code is much less coupled.
+
+How many times have you looked at some complex code and asked yourself -how long will
+it take to clean this code and write tests for it then walked away?
+
+No one can clean it.
+
+The code gets worse and worse with time. The entire team the entire company slows down.
+
+The code is so bad and so bad the developers all want it re-designed?
+
+------
+
+
+How to perform TDD Test
+Why TDD?
+What is it enabling us to do? What is the end goal? The goal is to go fast.
+It is to iterate fast. To go fast you need clean code. Bad code slows us down.
+If you put the best engineers on a bad code they will still go slow.
+How do you clean you code? Its like brushing your team - you need to do it all the time
+and this is refactoring.
+
+Why don't we frequently change the code? It is because we afraid we will break something.
+
+
+
+Following steps define how to perform TDD test,
+
+Add a test.
+Run all tests and see if any new test fails.
+Write some code.
+Run tests and Refactor code.
+Repeat.
+
+
+https://www.guru99.com/test-driven-development.html
+TDD cycle defines  - Good Diagrams
+
+Write a test
+Make it run.
+Change the code to make it right i.e. Refactor.
+Repeat process.
+Some clarifications about TDD:
+
+TDD is neither about "Testing" nor about "Design".
+TDD does not mean "write some of the tests, then build a system that passes the tests.
+TDD does not mean "do lots of Testing."
+
+
+CONFUSION BETWEEN BDD AND TDD
+TDD Gives me 4 things:
+1. Specification
+2. Feedback
+3. Regression - its repeatable
+4. Granularity
+
+Test Suites can get slower and slower and slower over time.
+
+This works until the point when you have a design change.
+Locked implementation instead of behavior
+
+BDD
+example: cucumber.
+Focuses on actually what the customer needs.
+This however does not have granularity.
+Focused more on writing tests from a customer's point of view
+Using the language of the customer is affecting the focus of the tests
+They way you use your language informs your thoughts
+It can solve some of the problems or challenges with TDD
+
+Example Lets Look at Sorting:
+
+Bubble Sort
+Selection Sort
+Insertion Sort
+Shell Sort
+Comb Sort
+Merge Sort
+Quicksort
+
+For BDD we say give me a list and when it is sorted it gives me a specific order
+That is the test does it end up in the correct order?
+
+Mocking
+https://blog.cleancoder.com/uncle-bob/2014/05/14/TheLittleMocker.html
+
+https://gist.github.com/andresgutgon/d4ab8b104b5e24b0d9d201c04933d395
+
+
+dummy
+
+
+
+
+
+
+
+
+
